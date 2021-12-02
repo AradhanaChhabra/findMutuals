@@ -1,6 +1,6 @@
 .wrap{
 height: 100vh;
-background:linear-gradient(352deg, #ccabb5 30%,#fff 100%);
+background:#fff 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -25,11 +25,11 @@ align-items: center;
 .titleS{
     font-weight: 800;
     font-size: 50px;
-    color: azure;
+    color: #E9B2BC;
 }
 .formHRS{
     width: 70%;
-    color: azure;
+    color: #E9B2BC;
 }
 .formBodyS{
     width: 100%;
