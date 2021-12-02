@@ -8,7 +8,7 @@ interface Props {
 export const Nav = styled.nav`
      /* background: #E2C2B9; */
      /* background: #E2C2B9; */
-     background: ${({scrollNav}:Props)=>(scrollNav?'#ddb5c2':'transparent')};
+     background: ${({scrollNav}:Props)=>(scrollNav?'#e2aebd':'transparent')};
      margin-top: -80px;
      height: 80px;
      width: 100%;

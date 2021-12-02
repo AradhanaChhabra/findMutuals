@@ -1,0 +1,47 @@
+.wrap{
+height: 100vh;
+background:linear-gradient(352deg, #ccabb5 30%,#fff 100%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.sepContainer{
+   
+    height: auto;
+    width: 100%;
+
+}
+.usersS{
+    width: 60%;
+}
+.headerS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.titleS{
+    font-weight: 800;
+    font-size: 50px;
+    color: azure;
+}
+.formHRS{
+    width: 70%;
+    color: azure;
+}
+.formBodyS{
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    width: 100%;
+}
+.resultClass{
+    margin-top:30px;
+}

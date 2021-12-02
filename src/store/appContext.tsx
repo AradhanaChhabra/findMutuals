@@ -19,22 +19,10 @@ const AppContext = React.createContext<AppModule>({
   onSearch: (user1: string, user2: string) => {},
 });
 
-const initData = {
-  users: [
-    new User('Sameer'),
-    new User('Aayushi'),
-    new User('Bhaskar'),
-    new User('Kamalnath Sharma'),
-    new User('Shanti Kumar Saha'),
-  ],
-    graph: [
-        [1, 3], [2], [], [4], [2]
-    ],
-};
 
 export const AppContextProvider: React.FC = (props) => {
-  const [users, setUsers] = useState<User[]>(initData.users);
-  const [graph, setGraph] = useState<number[][]>(initData.graph);
+  const [users, setUsers] = useState<User[]>([]);
+  const [graph, setGraph] = useState<number[][]>([]);
   const [output, setOutput] = useState<number[][]>([]);
   const [hasOutput, setHasOutput] = useState<boolean>(false);
   const [alert, setAlert] = useState<{
