@@ -23,14 +23,14 @@ For example, if you have the following relationships added into your system...
 5. Shanti Kumar Saha is a Friend of Bhaskar 
 
 
-If you select two people, let’s say Sameer and Bhaskar, the application should show the degree of separation as follows. 
+If you select two people, let’s say Sameer and Bhaskar, the application should will the degree of separation as follows. 
 
 1. Sameer > Aayushi > Bhaskar 
 
 2. Sameet > Kamalnath Sharma > Shanti Kumar Saha > Bhaskar 
 
 
-If I select the other two people, let’s say Kamalnath Sharma and Bhaskar, the application should show the degree of separation as follows. 
+If I select the other two people, let’s say Kamalnath Sharma and Bhaskar, the application will show the degree of separation as follows. 
 
 
 1. Kamalnath Sharma > Shanti Kumar Saha > Bhaskar
